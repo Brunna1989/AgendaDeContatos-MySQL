@@ -26,6 +26,12 @@ Contém a classe principal `Main`, que demonstra o uso das funcionalidades da ag
 - O banco de dados MySQL é utilizado para armazenar os contatos.
 - As configurações de conexão, como URL do banco de dados, usuário e senha, estão definidas no arquivo `dados.properties` no diretório `/src/main/resources/properties/`.
 
+### Arquivo `dados.properties`
+```properties
+prop.server.host=jdbc:mysql://127.0.0.1:3306/agenda
+prop.server.user=root
+prop.server.password=Brunna@2023
+
 ## Como Executar o Projeto
 
 1. Clone o repositório.
